@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+font-family:arial,verdana,"time new roman";
+font-size:14;
+color:#000;
+background:#fff;
+}
+.container{
+margin:0 auto;
+width:1170px;
+color:#000;
+}
+ul{
+list-style:none;
+}
+a{
+text-decoration:none;
+}
+.over:before, .over:after{
+content:"";
+display:table;
+}
+.over:after{
+	clear:both;
+}
